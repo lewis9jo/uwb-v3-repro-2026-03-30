@@ -1,0 +1,46 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.tox/
+.nox/
+.coverage
+coverage.xml
+htmlcov/
+
+# Runtime artifacts
+outputs/
+saved_models/
+checkpoints/
+analysis_results/
+
+# Dataset / cache artifacts
+*.npz
+*.pkl
+*.json
+*.joblib
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs and bulky outputs
+*.log
+*.png
+*.pdf
+
+# Editor
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

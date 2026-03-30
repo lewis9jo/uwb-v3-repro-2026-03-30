@@ -1,0 +1,34 @@
+﻿# GitHub 업로드/보관 최종용 최소 ignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Output/산출물(재생성 가능)
+outputs/
+results/
+*.png
+*.pdf
+
+# 캐시/모델
+*.npz
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# 로그
+*.log
+
+# 에디터
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
